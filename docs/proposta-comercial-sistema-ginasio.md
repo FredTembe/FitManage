@@ -1,248 +1,405 @@
-# Proposta Comercial - Sistema de Gestão para Ginásios
+# Proposta Comercial - DP Gym
 
-## 1. Apresentação
+## Sistema de Gestão para Ginásio
 
-Esta proposta apresenta um sistema de gestão completo para ginásios e academias,
-criado para ajudar no controlo diário da operação, desde o cadastro dos clientes
-até ao controlo de entradas, pagamentos, caixa, vendas, avaliações físicas e
-relacionamento com os utentes.
+**Cliente:** DP Gym - Fitness and Wellness  
+**Objetivo:** organizar, controlar e acompanhar a operação do ginásio de forma
+mais profissional, segura e preparada para crescimento.
 
-O objetivo é substituir controlos manuais, folhas soltas e processos
-desorganizados por uma ferramenta simples, segura e preparada para crescer junto
-com o negócio.
+> Observação: o logotipo da DP Gym deve ser inserido na capa da versão final da
+> proposta e da apresentação.
 
-## 2. O que o sistema vai fazer
+## 1. O problema atual
 
-O sistema vai ajudar o ginásio a controlar:
+Muitos ginásios começam com processos simples: fichas em papel, folhas de Excel,
+mensagens manuais, controlo visual de entradas, pagamentos registados de forma
+separada e pouca informação consolidada sobre os clientes.
 
-- clientes/utentes;
-- contratos e mensalidades;
+Com o crescimento da operação, isso começa a gerar problemas:
+
+- dificuldade em saber rapidamente quem tem contrato ativo;
+- risco de permitir entrada de utentes com pagamento vencido;
+- dificuldade em controlar caixa, vendas e pagamentos;
+- perda de histórico dos utentes;
+- dificuldade em acompanhar avaliações físicas e evolução dos clientes;
+- pouca visibilidade sobre clientes ausentes;
+- falta de alertas para mensalidades a vencer;
+- comunicação manual e pouco organizada com os utentes;
+- dificuldade em acompanhar o desempenho do ginásio à distância;
+- maior dependência de pessoas específicas para consultar informações.
+
+Na prática, o ginásio pode perder dinheiro, tempo e controlo operacional quando
+as informações não estão centralizadas num sistema próprio.
+
+## 2. O que pretendemos oferecer como solução
+
+Pretendemos oferecer à DP Gym um sistema de gestão completo, dividido em etapas,
+começando por uma versão desktop para uso interno no ginásio e evoluindo depois
+para acompanhamento web, CRM, SMS e aplicativo mobile para os utentes.
+
+A solução permitirá controlar:
+
+- cadastro de utentes;
+- contratos e subscrições;
 - pacotes diários, semanais, quinzenais, mensais, anuais e avulsos;
-- pagamentos;
-- caixa diário;
-- entrada de utentes e colaboradores;
-- cartões ou tags de acesso;
+- pagamentos e caixa;
 - produtos e serviços vendidos no ginásio;
-- avaliações físicas dos utentes;
-- histórico de cada cliente;
-- mensagens, campanhas e bónus nas etapas futuras;
-- acompanhamento remoto do negócio nas etapas futuras;
-- aplicativo mobile para os utentes nas etapas futuras.
+- cartões/tags de acesso;
+- entradas de utentes e colaboradores;
+- avaliações físicas e evolução;
+- backup na nuvem;
+- CRM, campanhas, bónus e SMS nas fases seguintes;
+- painel web para acompanhamento remoto nas fases seguintes;
+- aplicativo mobile para os utentes nas fases seguintes.
 
-Em resumo, o sistema vai permitir que o ginásio saiba:
+O objetivo é que a DP Gym tenha uma ferramenta que responda a perguntas simples
+e importantes:
 
-- quem está cadastrado;
-- quem está ativo;
-- quem está com pagamento em atraso;
-- quem pode ou não entrar;
-- quanto entrou no caixa;
-- quais produtos foram vendidos;
-- quais clientes estão ausentes;
-- como está a evolução dos utentes;
-- como o negócio está a crescer.
+- Quem pode entrar hoje?
+- Quem está com pagamento em atraso?
+- Quanto entrou no caixa?
+- Quais produtos foram vendidos?
+- Quais utentes estão ausentes?
+- Quais contratos estão a vencer?
+- Como está a evolução física de cada utente?
+- Como está o crescimento do ginásio?
 
-## 3. Principais benefícios para o ginásio
+## 3. Visão geral das etapas
 
-### Mais controlo
+O projeto será dividido em três etapas para reduzir riscos, entregar valor mais
+cedo e permitir que a DP Gym valide o sistema por partes.
 
-O ginásio passa a ter informação organizada sobre clientes, contratos,
-pagamentos, acessos, produtos, serviços e caixa.
-
-### Menos perdas financeiras
-
-O sistema ajuda a identificar mensalidades vencidas, pagamentos pendentes e
-entradas indevidas.
-
-### Atendimento mais profissional
-
-Cada cliente terá um histórico organizado, facilitando o atendimento na
-recepção, no treino e no acompanhamento físico.
-
-### Melhor acompanhamento dos clientes
-
-O ginásio poderá acompanhar avaliações físicas, evolução, frequência e
-histórico de cada utente.
-
-### Crescimento organizado
-
-O sistema será dividido em etapas, permitindo começar com o essencial e depois
-evoluir para acompanhamento remoto, CRM, SMS e aplicativo mobile.
-
-## 4. Divisão do projeto em etapas
-
-O projeto será desenvolvido em três etapas para reduzir riscos, facilitar a
-validação e permitir que o ginásio comece a usar primeiro as funcionalidades
-mais importantes.
-
-## 5. Etapa 1 - Sistema base para uso no ginásio
-
-### Objetivo
-
-Criar a primeira versão do sistema para uso interno no ginásio, funcionando no
-computador da recepção/administração.
-
-Nesta etapa, o sistema não dependerá de painel web, CRM, aplicativo mobile ou
-integração com outros ginásios. O foco será entregar a base principal para o
-ginásio operar no dia a dia.
-
-### O que entra nesta etapa
-
-- cadastro de usuários do sistema;
-- perfis e permissões de acesso;
-- cadastro de utentes/clientes;
-- cadastro de pacotes e planos;
-- contratos dos utentes;
-- pagamentos de mensalidades, anuidades e planos avulsos;
-- controlo de caixa;
-- cadastro de produtos e serviços;
-- venda de produtos e serviços;
-- controlo de movimentos de produtos;
-- cadastro de cartões ou tags de acesso;
-- registo de entradas de utentes e colaboradores;
-- avaliações físicas/check-ups;
-- relatórios básicos;
-- backup na nuvem.
-
-### O que ainda não entra nesta etapa
-
-- painel web;
-- CRM;
-- envio automático de SMS;
-- aplicativo mobile;
-- integração entre vários ginásios;
-- pagamentos feitos pelo app mobile.
-
-### Estimativa
-
-**25 a 40 dias de trabalho.**
-
-Esta estimativa considera que já existe uma base de sistema pronta, que será
-adaptada para o negócio de ginásio.
-
-## 6. Etapa 2 - Acompanhamento remoto, CRM e mensagens
-
-### Objetivo
-
-Permitir que o dono ou gestor acompanhe o andamento do ginásio remotamente e
-melhorar o relacionamento com os clientes.
-
-### O que entra nesta etapa
-
-- painel web para acompanhamento remoto;
-- visão de clientes ativos e inativos;
-- visão de pagamentos, caixa e vendas;
-- acompanhamento de contratos vencidos;
-- acompanhamento de entradas no ginásio;
-- CRM para relacionamento com clientes;
-- campanhas promocionais;
-- atribuicao de bónus;
-- envio de SMS;
-- mensagens de boas-vindas;
-- aviso antes do vencimento da mensalidade;
-- aviso de contrato vencido;
-- mensagens para clientes que estão a faltar;
-- lembrete de avaliação física;
-- mensagens de aniversário;
-- campanhas de reativação de clientes.
-
-### Exemplo pratico
-
-Se um cliente ficar muitos dias sem ir ao ginásio, o sistema poderá avisar a
-equipa ou enviar uma mensagem automática, como:
-
-> Olá João, sentimos a sua falta no ginásio. Volte aos treinos e continue firme
-> no seu objetivo!
-
-### Estimativa
-
-**25 a 40 dias de trabalho.**
-
-## 7. Etapa 3 - Aplicativo mobile para os utentes
-
-### Objetivo
-
-Criar um aplicativo para que os utentes possam acompanhar as suas informações
-pelo telemóvel.
-
-### O que entra nesta etapa
-
-- acesso do utente pelo aplicativo;
-- visualizacao do contrato atual;
-- validade da mensalidade ou plano;
-- histórico de pagamentos;
-- histórico de entradas;
-- evolução física;
-- avaliações/check-ups;
-- bónus e campanhas disponiveis;
-- notificações;
-- possibilidade de pagamento pelo aplicativo, se for definido um meio de
-  pagamento.
-
-### Estimativa
-
-**20 a 30 dias de trabalho.**
-
-## 8. Resumo das etapas e estimativas
-
-| Etapa | O que será entregue | Estimativa |
+| Etapa | Objetivo principal | Estimativa |
 | --- | --- | ---: |
-| Etapa 1 | Sistema base para uso interno no ginásio | 25 a 40 dias |
-| Etapa 2 | Painel web, acompanhamento remoto, CRM e SMS | 25 a 40 dias |
+| Etapa 1 | Sistema desktop base para uso interno no ginásio | 25 a 40 dias |
+| Etapa 2 | Painel web, Web API, CRM, campanhas e SMS | 25 a 40 dias |
 | Etapa 3 | Aplicativo mobile para os utentes | 20 a 30 dias |
 | **Total** | Sistema completo nas três etapas | **70 a 110 dias** |
 
-As estimativas acima são em dias de trabalho, considerando uma rotina de 9 horas
-por dia e 5 dias por semana.
+As estimativas são em dias de trabalho, considerando uma rotina de 9 horas por
+dia e 5 dias por semana. Os prazos podem variar conforme ajustes, integrações,
+relatórios, catraca/cartões, formas de pagamento e validações durante o uso.
 
-Resumo simples: a primeira entrega pode ficar entre 25 e 40 dias de trabalho, e
-o sistema completo, nas três etapas, pode ficar entre 70 e 110 dias de trabalho.
+## 4. Etapa 1 - Sistema desktop base
 
-## 9. Por que dividir em etapas
+### Objetivo da etapa
 
-Dividir o projeto em etapas permite:
+Entregar à DP Gym uma primeira versão funcional do sistema para uso interno no
+ginásio, principalmente na recepção, administração e caixa.
 
-- começar pelo que e mais importante;
-- evitar criar tudo de uma vez sem validar;
-- reduzir risco;
-- permitir que o ginásio comece a usar o sistema mais cedo;
-- melhorar o sistema com base no uso real;
-- deixar as funções mais avançadas para depois da base estar estável.
+Nesta fase, o sistema não incluirá ainda CRM, painel web, integração entre
+ginásios ou aplicativo mobile. O foco será organizar a operação principal do
+ginásio.
 
-## 10. Resultado esperado da primeira etapa
+### Funcionalidades da Etapa 1
 
-No final da primeira etapa, o ginásio já deverá conseguir:
+#### 4.1 Usuários, perfis e permissões
 
-- cadastrar clientes;
-- controlar planos e contratos;
-- receber pagamentos;
-- controlar caixa;
+- cadastro de usuários do sistema;
+- criação de perfis como gestor, recepcionista, caixa, treinador e
+  administrador;
+- definição de permissões por perfil;
+- controlo de quem pode ver, criar, editar ou eliminar informações;
+- maior segurança no acesso aos dados do ginásio.
+
+#### 4.2 Configurações gerais
+
+- dados básicos da DP Gym;
+- configurações de funcionamento;
+- tipos de pagamento;
+- regras básicas de acesso;
+- configurações de backup;
+- parâmetros usados pelo sistema no dia a dia.
+
+#### 4.3 Gestão de utentes
+
+- cadastro completo de utentes;
+- dados pessoais e contactos;
+- fotografia do utente, se necessário;
+- estado do utente: ativo, inativo, suspenso ou bloqueado;
+- histórico de contratos;
+- histórico de pagamentos;
+- histórico de acessos;
+- observações internas.
+
+#### 4.4 Pacotes e subscrições
+
+- criação de pacotes diários;
+- criação de pacotes semanais;
+- criação de pacotes quinzenais;
+- criação de pacotes mensais;
+- criação de pacotes anuais;
+- criação de pacotes avulsos;
+- definição de preços e duração;
+- ativação ou desativação de pacotes.
+
+#### 4.5 Contratos dos utentes
+
+- criação de contrato para cada utente;
+- ligação do contrato ao pacote escolhido;
+- data de início e data de fim;
+- estado do contrato: ativo, vencido, suspenso ou cancelado;
+- histórico de renovações;
+- possibilidade de reativação de contrato;
+- consulta rápida da situação do utente.
+
+#### 4.6 Pagamentos
+
+- registo de pagamentos de mensalidades;
+- registo de pagamentos anuais;
+- registo de pagamentos avulsos;
+- pagamentos de reativação de contrato;
+- histórico de pagamentos por utente;
+- identificação de pagamentos pendentes;
+- apoio à emissão de comprovativos/recibos, se definido.
+
+#### 4.7 Caixa
+
+- abertura e fecho de caixa;
+- entradas de dinheiro;
+- saídas ou ajustes de caixa;
+- pagamentos de contratos;
+- pagamentos de produtos;
+- pagamentos de serviços;
+- formas de pagamento como dinheiro, cartão, transferência ou outro método;
+- resumo diário do caixa.
+
+#### 4.8 Produtos e serviços
+
+- cadastro de produtos vendidos pela DP Gym;
+- cadastro de serviços extras;
+- definição de preços;
+- indicação se o item controla estoque;
+- venda de suplementos, água, acessórios, aulas extras ou outros serviços;
+- histórico de vendas.
+
+#### 4.9 Movimentos de produtos e serviços
+
+- entrada de produtos;
+- saída de produtos;
+- venda de produtos;
+- ajustes de estoque;
+- perdas ou devoluções;
+- histórico de movimentos;
+- melhor controlo da loja interna do ginásio.
+
+#### 4.10 Cartões/tags de acesso
+
+- cadastro de cartões ou tags;
+- associação de cartão/tag a utentes;
+- associação de cartão/tag a colaboradores;
+- bloqueio de cartão perdido ou inválido;
+- histórico de utilização.
+
+#### 4.11 Controlo de acessos
+
+- registo de entrada de utentes;
+- registo de entrada de colaboradores;
+- validação do contrato antes da entrada;
+- bloqueio por contrato vencido;
+- bloqueio por pagamento pendente;
+- registo de tentativas autorizadas ou recusadas;
+- histórico de frequência.
+
+#### 4.12 Avaliações físicas/check-ups
+
+- registo de avaliação física do utente;
+- peso, medidas e observações;
+- objetivos do utente;
+- treinador responsável;
+- data da próxima avaliação;
+- histórico da evolução do utente.
+
+#### 4.13 Relatórios básicos
+
+- utentes ativos;
+- utentes inativos;
+- contratos vencidos;
+- pagamentos recebidos;
+- resumo de caixa;
+- vendas de produtos e serviços;
+- acessos por período;
+- avaliações realizadas.
+
+#### 4.14 Backup na nuvem
+
+- cópia de segurança dos dados;
+- maior proteção contra perda de informação;
+- possibilidade de restauração conforme política definida;
+- segurança adicional para a operação da DP Gym.
+
+### O que não entra na Etapa 1
+
+- CRM;
+- envio automático de SMS;
+- painel web;
+- Web API;
+- aplicativo mobile;
+- integração entre vários ginásios;
+- pagamentos pelo aplicativo mobile.
+
+### Estimativa da Etapa 1
+
+**25 a 40 dias de trabalho.**
+
+## 5. Etapa 2 - Painel web, Web API, CRM e SMS
+
+### Objetivo da etapa
+
+Permitir que a DP Gym acompanhe o avanço do ginásio remotamente e melhore o
+relacionamento com os utentes através de CRM, campanhas, bónus e SMS.
+
+### Funcionalidades da Etapa 2
+
+#### 5.1 Painel web para acompanhamento remoto
+
+- acesso do gestor pela web;
+- visão geral do ginásio;
+- acompanhamento de utentes ativos;
+- acompanhamento de contratos vencidos;
+- acompanhamento de pagamentos;
+- acompanhamento do caixa;
+- acompanhamento de vendas;
+- acompanhamento de acessos;
+- indicadores básicos de desempenho.
+
+#### 5.2 Centralização dos dados
+
+- preparação para dados centralizados;
+- comunicação entre o sistema desktop e o servidor;
+- possibilidade de consulta remota;
+- base preparada para crescimento futuro.
+
+#### 5.3 CRM
+
+- identificação de utentes ausentes;
+- segmentação de clientes;
+- histórico de comunicação;
+- campanhas de renovação;
+- campanhas de reativação;
+- campanhas promocionais;
+- acompanhamento de relacionamento com o utente.
+
+#### 5.4 Bónus e fidelização
+
+- atribuição de bónus a utentes;
+- dias extra de treino;
+- descontos promocionais;
+- benefícios por fidelização;
+- campanhas para clientes que indicam amigos;
+- controlo de bónus utilizados ou pendentes.
+
+#### 5.5 Envio de SMS
+
+- mensagem de boas-vindas;
+- aviso antes do vencimento do contrato;
+- aviso de contrato vencido;
+- mensagem para utentes ausentes;
+- lembrete de avaliação física;
+- mensagem de aniversário;
+- campanha de reativação;
+- campanhas promocionais.
+
+### Exemplo de uso do CRM
+
+Se um utente ficar 15 dias sem treinar, o sistema poderá identificar essa
+ausência e enviar uma mensagem:
+
+> Olá João, sentimos a sua falta na DP Gym. Volte aos treinos e continue firme
+> no seu objetivo!
+
+### Estimativa da Etapa 2
+
+**25 a 40 dias de trabalho.**
+
+## 6. Etapa 3 - Aplicativo mobile para os utentes
+
+### Objetivo da etapa
+
+Criar um aplicativo para que cada utente da DP Gym acompanhe as suas informações
+pelo telemóvel, reduzindo a dependência da recepção para consultas simples.
+
+### Funcionalidades da Etapa 3
+
+#### 6.1 Conta do utente
+
+- acesso do utente ao aplicativo;
+- visualização dos seus dados principais;
+- consulta do estado da subscrição;
+- consulta da validade do contrato.
+
+#### 6.2 Histórico
+
+- histórico de pagamentos;
+- histórico de acessos;
+- histórico de contratos;
+- histórico de avaliações físicas;
+- acompanhamento da evolução.
+
+#### 6.3 Pagamentos pelo aplicativo
+
+- possibilidade de pagamento pelo mobile;
+- escolha do método de pagamento, conforme provedor definido;
+- atualização do estado do contrato após confirmação;
+- consulta de pagamentos efetuados.
+
+#### 6.4 Comunicação e notificações
+
+- notificações de vencimento;
+- notificações de campanhas;
+- notificações de bónus;
+- lembretes de avaliação física;
+- mensagens importantes da DP Gym.
+
+#### 6.5 Experiência do utente
+
+- maior autonomia para o cliente;
+- acesso rápido a informações importantes;
+- melhor percepção de valor;
+- relacionamento mais próximo com a DP Gym.
+
+### Estimativa da Etapa 3
+
+**20 a 30 dias de trabalho.**
+
+## 7. Resultado esperado
+
+Ao final das três etapas, a DP Gym terá uma plataforma completa para:
+
+- gerir os utentes;
+- controlar contratos e pagamentos;
+- controlar entradas;
+- organizar o caixa;
 - vender produtos e serviços;
-- registar entradas;
 - acompanhar avaliações físicas;
-- saber quem está ativo ou vencido;
-- guardar backup na nuvem.
+- proteger dados com backup;
+- acompanhar o ginásio remotamente;
+- comunicar com clientes por SMS;
+- atribuir bónus e campanhas;
+- oferecer aplicativo mobile aos utentes.
 
-Ou seja, a primeira etapa já entrega uma ferramenta util para a operação diaria
-do ginásio.
+## 8. Por que começar pela Etapa 1
 
-## 11. Observações importantes
+A Etapa 1 deve ser a prioridade porque entrega a base operacional do ginásio.
+Com ela, a DP Gym já poderá organizar os processos principais e validar o sistema
+na prática.
 
-O prazo pode variar conforme:
+Depois da base estar estável, faz mais sentido avançar para painel web, CRM,
+SMS e aplicativo mobile.
 
-- quantidade de telas desejadas;
-- quantidade de relatórios;
-- regras específicas de caixa;
-- tipo de cartão/tag ou catraca usado;
-- modelo de backup na nuvem;
-- forma de pagamento escolhida para o aplicativo;
-- necessidade de importar dados antigos;
-- ajustes solicitados durante a validação.
+## 9. Resumo final para o cliente
 
-## 12. Conclusão
+A proposta é criar um sistema que ajude a DP Gym a deixar de depender de
+controlos manuais e passe a gerir a operação com mais segurança, organização e
+profissionalismo.
 
-Este sistema será uma solução completa para profissionalizar a gestão do
-ginásio, melhorar o controlo financeiro, organizar o atendimento, acompanhar os
-clientes e preparar o negócio para crescer.
+Primeiro será entregue o sistema interno do ginásio. Depois, a solução evoluirá
+para acompanhamento remoto, relacionamento com clientes e, por fim, aplicativo
+mobile para os utentes.
 
-A recomendação é iniciar pela primeira etapa, com o sistema base para uso
-interno, e depois evoluir para painel web, CRM, SMS e aplicativo mobile.
+Resumo das estimativas:
+
+- **Etapa 1:** 25 a 40 dias de trabalho.
+- **Etapa 2:** 25 a 40 dias de trabalho.
+- **Etapa 3:** 20 a 30 dias de trabalho.
+- **Total:** 70 a 110 dias de trabalho.
