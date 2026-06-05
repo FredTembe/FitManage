@@ -141,3 +141,27 @@ internet, mantendo a operacao do ginasio mesmo em cenarios offline.
 O sistema sera uma plataforma completa para gerir o ginasio de ponta a ponta,
 desde a entrada do utente ate ao pagamento, acompanhamento, comunicacao,
 fidelizacao e gestao multiunidade.
+
+
+## 19. Roadmap por etapas
+
+Etapa 1: sistema desktop base, sem CRM, sem Web API, sem mobile e sem
+integracao com outros ginasios. Inclui backup na nuvem.
+
+Etapa 2: Web API, painel web para monitoramento remoto, sincronizacao, CRM,
+campanhas, bonus e SMS.
+
+Etapa 3: app mobile para utentes, com historico, pagamentos, desempenho,
+contrato atual, bonus e notificacoes.
+
+## 20. Estimativa considerando base existente
+
+Como ja existe uma base forte em arquitetura limpa e UI WPF, a estimativa
+considera adaptacao do sistema atual ao dominio do ginasio:
+
+- Etapa 1: 25 a 40 dias de trabalho.
+- Etapa 2: 25 a 40 dias de trabalho.
+- Etapa 3: 20 a 30 dias de trabalho.
+- Total: 70 a 110 dias de trabalho.
+
+As estimativas consideram uma rotina de 9 horas por dia e 5 dias por semana.
