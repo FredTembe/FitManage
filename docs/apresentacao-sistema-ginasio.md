@@ -1,163 +1,163 @@
-# Sistema de Gestao para Ginasios
+# Sistema de Gestão para Ginásios
 
 ## 1. Capa
 
-Sistema de Gestao para Ginasios  
-Desktop + API Web + Sincronizacao Centralizada
+Sistema de Gestão para Ginásios  
+Desktop + API Web + Sincronização Centralizada
 
-## 2. Visao geral
+## 2. Visão geral
 
-O sistema centraliza a operacao do ginasio: utentes, contratos, pagamentos,
-acessos, caixa, loja, colaboradores, acompanhamento fisico, CRM e comunicacao
+O sistema centraliza a operação do ginásio: utentes, contratos, pagamentos,
+acessos, caixa, loja, colaboradores, acompanhamento físico, CRM e comunicação
 por SMS.
 
 ## 3. Objetivo do sistema
 
 - Reduzir controlo manual.
 - Evitar entradas indevidas.
-- Melhorar gestao financeira.
-- Acompanhar evolucao dos utentes.
-- Fidelizar clientes com CRM, bonus e SMS.
-- Preparar o grupo para varias unidades sincronizadas.
+- Melhorar gestão financeira.
+- Acompanhar evolução dos utentes.
+- Fidelizar clientes com CRM, bónus e SMS.
+- Preparar o grupo para várias unidades sincronizadas.
 
-## 4. Modulos principais
+## 4. Módulos principais
 
-- Usuarios, perfis e permissoes.
+- Usuários, perfis e permissões.
 - Utentes e contratos.
-- Pacotes e subscricoes.
-- Acessos por cartao/tag.
-- Avaliacoes fisicas e evolucao.
-- Produtos, servicos e vendas.
-- Caixa e transacoes financeiras.
-- CRM, bonus, campanhas e SMS.
-- Sincronizacao com API web.
+- Pacotes e subscrições.
+- Acessos por cartão/tag.
+- Avaliações físicas e evolução.
+- Produtos, serviços e vendas.
+- Caixa e transações financeiras.
+- CRM, bónus, campanhas e SMS.
+- Sincronização com API web.
 
-## 5. Usuarios e permissoes
+## 5. Usuários e permissões
 
 O sistema permite criar perfis como Gestor, Treinador, Recepcionista, Caixa e
-Administrador. Cada perfil recebe uma lista de permissoes, garantindo que cada
+Administrador. Cada perfil recebe uma lista de permissões, garantindo que cada
 colaborador acesse apenas as funcionalidades autorizadas.
 
-## 6. Gestao de utentes
+## 6. Gestão de utentes
 
 - Cadastro completo do utente.
 - Foto e dados de contacto.
 - Estado do utente.
-- Historico de contratos.
-- Historico de pagamentos.
-- Historico de acessos.
-- Acompanhamento fisico.
-- Fidelizacao e bonus.
+- Histórico de contratos.
+- Histórico de pagamentos.
+- Histórico de acessos.
+- Acompanhamento físico.
+- Fidelização e bónus.
 
-## 7. Pacotes, subscricoes e contratos
+## 7. Pacotes, subscrições e contratos
 
-O ginasio pode criar pacotes diarios, semanais, quinzenais, mensais, anuais ou
-avulsos. Cada utente fica ligado a um contrato, com datas de inicio e fim,
-estado, preco, renovacoes e possiveis taxas de reativacao.
+O ginásio pode criar pacotes diários, semanais, quinzenais, mensais, anuais ou
+avulsos. Cada utente fica ligado a um contrato, com datas de início e fim,
+estado, preço, renovações e possíveis taxas de reativação.
 
 ## 8. Controlo de acessos
 
-Os utentes e colaboradores podem entrar com cartao, tag ou outro dispositivo. O
+Os utentes e colaboradores podem entrar com cartão, tag ou outro dispositivo. O
 sistema valida contrato, pagamento, dispositivo e regras de acesso antes de
 autorizar a entrada na catraca.
 
-## 9. Avaliacao fisica e evolucao
+## 9. Avaliação física e evolução
 
-O sistema agenda e regista avaliacoes periodicas do utente, permitindo controlar
-peso, medidas, objetivos, observacoes do treinador e proxima data de avaliacao.
+O sistema agenda e regista avaliações periódicas do utente, permitindo controlar
+peso, medidas, objetivos, observações do treinador e próxima data de avaliação.
 
-## 10. Loja, produtos e servicos
+## 10. Loja, produtos e serviços
 
-O ginasio pode vender suplementos, agua, equipamentos, aulas extras, servicos de
-personal trainer e outros servicos. O sistema controla cadastro, preco, estoque,
-vendas e movimentos de produtos/servicos.
+O ginásio pode vender suplementos, água, equipamentos, aulas extras, serviços de
+personal trainer e outros serviços. O sistema controla cadastro, preço, estoque,
+vendas e movimentos de produtos/serviços.
 
-## 11. Caixa e transacoes
+## 11. Caixa e transações
 
-O caixa regista entradas e saidas financeiras de diferentes origens:
+O caixa regista entradas e saídas financeiras de diferentes origens:
 
 - Pagamentos de mensalidade, anuidade ou planos avulsos.
 - Venda de produtos.
-- Venda de servicos.
-- Reativacao de contratos.
-- Ajustes, devolucoes e outras movimentacoes.
+- Venda de serviços.
+- Reativação de contratos.
+- Ajustes, devoluções e outras movimentações.
 
-## 12. CRM, bonus e SMS
+## 12. CRM, bónus e SMS
 
 O CRM ajuda a manter o utente ativo e fidelizado:
 
 - Mensagens de boas-vindas.
 - Avisos de vencimento.
 - SMS para utentes ausentes.
-- Lembretes de avaliacao fisica.
+- Lembretes de avaliação física.
 - Campanhas promocionais.
-- Bonus por fidelizacao.
-- Mensagens de aniversario.
+- Bónus por fidelização.
+- Mensagens de aniversário.
 - Recuperacao de clientes inativos.
 
-## 13. Criterios para SMS
+## 13. Critérios para SMS
 
-Exemplos de criterios configuraveis:
+Exemplos de critérios configuraveis:
 
 - Enviar SMS X dias antes do vencimento do contrato.
 - Enviar SMS quando o contrato vencer.
 - Enviar SMS se o utente faltar por 7, 15 ou 30 dias.
-- Enviar SMS no aniversario.
-- Enviar SMS quando houver bonus disponivel.
-- Enviar SMS para campanhas ou reativacao.
+- Enviar SMS no aniversário.
+- Enviar SMS quando houver bónus disponível.
+- Enviar SMS para campanhas ou reativação.
 
-## 14. Varias unidades do mesmo grupo
+## 14. Várias unidades do mesmo grupo
 
 Utentes podem frequentar outras unidades do mesmo grupo, respeitando regras
-configuraveis. Se os pacotes/precos forem diferentes, o sistema pode limitar o
+configuraveis. Se os pacotes/preços forem diferentes, o sistema pode limitar o
 acesso a uma quantidade configurada de dias, por exemplo 10 dias.
 
 ## 15. Desktop, offline e API web
 
-O app desktop sera desenvolvido em C# WPF com arquitetura limpa. Ele podera
+O app desktop será desenvolvido em C# WPF com arquitetura limpa. Ele poderá
 operar localmente e sincronizar dados com uma API web centralizada quando houver
-internet, mantendo a operacao do ginasio mesmo em cenarios offline.
+internet, mantendo a operação do ginásio mesmo em cenários offline.
 
 ## 16. Arquitetura proposta
 
-- Dominio: regras centrais do negocio.
-- Aplicacao: casos de uso.
-- Infraestrutura: banco de dados, API, catraca, SMS e integracoes.
+- Domínio: regras centrais do negócio.
+- Aplicação: casos de uso.
+- Infraestrutura: banco de dados, API, catraca, SMS e integrações.
 - WPF/UI: telas desktop.
-- API Web: dados centralizados, sincronizacao e expansao futura.
+- API Web: dados centralizados, sincronização e expansão futura.
 
-## 17. Beneficios para o cliente
+## 17. Benefícios para o cliente
 
 - Maior controlo operacional.
 - Menos perdas financeiras.
-- Melhor experiencia para o utente.
-- Decisoes baseadas em dados.
-- Mais fidelizacao.
-- Preparacao para crescimento em grupo.
-- Automatizacao de acessos, comunicacao e pagamentos.
+- Melhor experiência para o utente.
+- Decisões baseadas em dados.
+- Mais fidelização.
+- Preparação para crescimento em grupo.
+- Automatização de acessos, comunicação e pagamentos.
 
 ## 18. Fecho
 
-O sistema sera uma plataforma completa para gerir o ginasio de ponta a ponta,
-desde a entrada do utente ate ao pagamento, acompanhamento, comunicacao,
-fidelizacao e gestao multiunidade.
+O sistema será uma plataforma completa para gerir o ginásio de ponta a ponta,
+desde a entrada do utente até ao pagamento, acompanhamento, comunicação,
+fidelização e gestão multiunidade.
 
 
 ## 19. Roadmap por etapas
 
 Etapa 1: sistema desktop base, sem CRM, sem Web API, sem mobile e sem
-integracao com outros ginasios. Inclui backup na nuvem.
+integração com outros ginásios. Inclui backup na nuvem.
 
-Etapa 2: Web API, painel web para monitoramento remoto, sincronizacao, CRM,
-campanhas, bonus e SMS.
+Etapa 2: Web API, painel web para monitoramento remoto, sincronização, CRM,
+campanhas, bónus e SMS.
 
-Etapa 3: app mobile para utentes, com historico, pagamentos, desempenho,
-contrato atual, bonus e notificacoes.
+Etapa 3: app mobile para utentes, com histórico, pagamentos, desempenho,
+contrato atual, bónus e notificações.
 
 ## 20. Estimativa considerando base existente
 
-Como ja existe uma base forte em arquitetura limpa e UI WPF, a estimativa
-considera adaptacao do sistema atual ao dominio do ginasio:
+Como já existe uma base forte em arquitetura limpa e UI WPF, a estimativa
+considera adaptação do sistema atual ao domínio do ginásio:
 
 - Etapa 1: 25 a 40 dias de trabalho.
 - Etapa 2: 25 a 40 dias de trabalho.
